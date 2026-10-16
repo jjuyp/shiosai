@@ -1,0 +1,102 @@
+{
+  "oneFingerRipples": 15,
+  "oneFingerCameraDrift": 0,
+  "tapSplashes": 1,
+  "twoFingerCameraDelta": 14.117846172913733,
+  "noAccidentalSplash": true,
+  "panel": {
+    "x": 15.59375,
+    "y": 116,
+    "width": 358.8125,
+    "height": 574
+  },
+  "dock": {
+    "x": 29.765625,
+    "y": 700,
+    "width": 330.46875,
+    "height": 58
+  },
+  "targets": [
+    {
+      "id": "reset",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "id": "season-cycle",
+      "width": 100,
+      "height": 44
+    },
+    {
+      "id": "tide-toggle",
+      "width": 74.46875,
+      "height": 44
+    },
+    {
+      "id": "tune",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "id": "fullscreen",
+      "width": 44,
+      "height": 44
+    }
+  ],
+  "landscapeDock": {
+    "x": 332.671875,
+    "y": 307,
+    "width": 398.09375,
+    "height": 56
+  },
+  "smallDock": {
+    "x": 22.265625,
+    "y": 523,
+    "width": 330.46875,
+    "height": 58
+  },
+  "stats": {
+    "ready": true,
+    "three": "160",
+    "canopies": 4600,
+    "terrainGrid": 240,
+    "koi": 7,
+    "particles": 420,
+    "season": "Spring",
+    "winter": 0,
+    "tide": 0,
+    "tideTarget": 0,
+    "waterline": 0,
+    "intro": 1,
+    "time": "14:20",
+    "fps": 106,
+    "pixelRatio": 1.25,
+    "calls": 14,
+    "triangles": 350754,
+    "geometries": 13,
+    "textures": 7,
+    "interactions": 17,
+    "splashes": 1,
+    "particleStates": [
+      85,
+      18,
+      317
+    ],
+    "webgl2": true,
+    "ssrSteps": 14,
+    "fishMinWaterClearance": 0.20927794692369367,
+    "fishMinBedClearance": 0.10725816297201646,
+    "reducedMotion": false,
+    "particlesVisible": true,
+    "camera": [
+      15.024406435389233,
+      12.861804484552673,
+      18.780508303637813
+    ],
+    "renderSize": [
+      623,
+      483
+    ]
+  },
+  "browserErrors": []
+}

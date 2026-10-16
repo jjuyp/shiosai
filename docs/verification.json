@@ -1,0 +1,282 @@
+{
+  "checkedAt": "2026-10-15 Asia/Taipei",
+  "directFileReducedMotion": {
+    "ready": true,
+    "three": "160",
+    "canopies": 4600,
+    "terrainGrid": 240,
+    "koi": 7,
+    "particles": 420,
+    "season": "Spring",
+    "winter": 0,
+    "tide": 0,
+    "tideTarget": 0,
+    "waterline": 0,
+    "intro": 1,
+    "time": "14:20",
+    "fps": 60,
+    "pixelRatio": 1.25,
+    "calls": 13,
+    "triangles": 349914,
+    "geometries": 12,
+    "textures": 7,
+    "interactions": 0,
+    "splashes": 0,
+    "particleStates": [
+      420,
+      0,
+      0
+    ],
+    "webgl2": true,
+    "ssrSteps": 14,
+    "fishMinWaterClearance": 0.16814912230888307,
+    "fishMinBedClearance": 0.09166117728278184,
+    "reducedMotion": true,
+    "particlesVisible": false,
+    "camera": [
+      15.048,
+      12.881999999999998,
+      18.81
+    ],
+    "renderSize": [
+      648,
+      612
+    ]
+  },
+  "desktop": {
+    "start": {
+      "ready": true,
+      "three": "160",
+      "canopies": 4600,
+      "terrainGrid": 400,
+      "koi": 7,
+      "particles": 700,
+      "season": "Spring",
+      "winter": 0,
+      "tide": 0,
+      "tideTarget": 0,
+      "waterline": 0,
+      "intro": 1,
+      "time": "14:20",
+      "fps": 32,
+      "pixelRatio": 1,
+      "calls": 14,
+      "triangles": 853362,
+      "geometries": 13,
+      "textures": 7,
+      "interactions": 0,
+      "splashes": 0,
+      "particleStates": [
+        142,
+        50,
+        508
+      ],
+      "webgl2": true,
+      "ssrSteps": 26,
+      "fishMinWaterClearance": 0.4223130616008481,
+      "fishMinBedClearance": 0.19525118674999814,
+      "reducedMotion": false,
+      "particlesVisible": true,
+      "camera": [
+        13.289165685737608,
+        11.376331230972331,
+        16.611457107172008
+      ],
+      "renderSize": [
+        1152,
+        840
+      ]
+    },
+    "waterEvents": 18,
+    "splashes": 1,
+    "low": {
+      "ready": true,
+      "three": "160",
+      "canopies": 4600,
+      "terrainGrid": 400,
+      "koi": 7,
+      "particles": 700,
+      "season": "Autumn",
+      "winter": 0,
+      "tide": -0.5490122066092468,
+      "tideTarget": -0.55,
+      "waterline": -0.5490122066092468,
+      "intro": 1,
+      "time": "19:10",
+      "fps": 42,
+      "pixelRatio": 0.84,
+      "calls": 14,
+      "triangles": 853362,
+      "geometries": 13,
+      "textures": 7,
+      "interactions": 18,
+      "splashes": 1,
+      "particleStates": [
+        504,
+        0,
+        196
+      ],
+      "webgl2": true,
+      "ssrSteps": 26,
+      "fishMinWaterClearance": 0.14028085332735118,
+      "fishMinBedClearance": 0.10996347713095922,
+      "reducedMotion": false,
+      "particlesVisible": true,
+      "camera": [
+        13.223560180162448,
+        11.314542923162897,
+        16.471314190918438
+      ],
+      "renderSize": [
+        967,
+        705
+      ]
+    },
+    "final": {
+      "ready": true,
+      "three": "160",
+      "canopies": 4600,
+      "terrainGrid": 400,
+      "koi": 7,
+      "particles": 700,
+      "season": "Spring",
+      "winter": 0,
+      "tide": -0.00016470780581918644,
+      "tideTarget": 0,
+      "waterline": -0.00016470780581918644,
+      "intro": 1,
+      "time": "14:20",
+      "fps": 40,
+      "pixelRatio": 0.8,
+      "calls": 14,
+      "triangles": 853362,
+      "geometries": 13,
+      "textures": 7,
+      "interactions": 18,
+      "splashes": 1,
+      "particleStates": [
+        447,
+        33,
+        220
+      ],
+      "webgl2": true,
+      "ssrSteps": 26,
+      "fishMinWaterClearance": 0.24472927607155173,
+      "fishMinBedClearance": 0.10048651723191299,
+      "reducedMotion": false,
+      "particlesVisible": true,
+      "camera": [
+        13.211359589328882,
+        11.307011900235807,
+        16.486169078384236
+      ],
+      "renderSize": [
+        921,
+        672
+      ]
+    },
+    "timing": {
+      "fps": 40.18421527903198,
+      "p95FrameMs": 27.900000000001455
+    },
+    "fullscreen": true,
+    "browserErrors": []
+  },
+  "file": 69514,
+  "touch": {
+    "stats": {
+      "ready": true,
+      "three": "160",
+      "canopies": 4600,
+      "terrainGrid": 240,
+      "koi": 7,
+      "particles": 420,
+      "season": "Spring",
+      "winter": 0,
+      "tide": 0,
+      "tideTarget": 0,
+      "waterline": 0,
+      "intro": 1,
+      "time": "14:20",
+      "fps": 111,
+      "pixelRatio": 1.25,
+      "calls": 14,
+      "triangles": 350754,
+      "geometries": 13,
+      "textures": 7,
+      "interactions": 0,
+      "splashes": 0,
+      "particleStates": [
+        89,
+        32,
+        299
+      ],
+      "webgl2": true,
+      "ssrSteps": 14,
+      "fishMinWaterClearance": 0.4210326775224332,
+      "fishMinBedClearance": 0.1817067404678338,
+      "reducedMotion": false,
+      "particlesVisible": true,
+      "camera": [
+        15.153008175740826,
+        12.971893362565943,
+        18.94126021967603
+      ],
+      "renderSize": [
+        648,
+        612
+      ]
+    },
+    "low": {
+      "ready": true,
+      "three": "160",
+      "canopies": 4600,
+      "terrainGrid": 240,
+      "koi": 7,
+      "particles": 420,
+      "season": "Spring",
+      "winter": 0,
+      "tide": -0.5490019298571988,
+      "tideTarget": -0.55,
+      "waterline": -0.5490019298571988,
+      "intro": 1,
+      "time": "14:20",
+      "fps": 116,
+      "pixelRatio": 1.25,
+      "calls": 14,
+      "triangles": 350754,
+      "geometries": 13,
+      "textures": 7,
+      "interactions": 0,
+      "splashes": 0,
+      "particleStates": [
+        269,
+        0,
+        151
+      ],
+      "webgl2": true,
+      "ssrSteps": 14,
+      "fishMinWaterClearance": 0.14014010317291348,
+      "fishMinBedClearance": 0.10170636013308232,
+      "reducedMotion": false,
+      "particlesVisible": true,
+      "camera": [
+        15.153008175740826,
+        12.971893362565943,
+        18.94126021967603
+      ],
+      "renderSize": [
+        648,
+        612
+      ]
+    },
+    "overflow": false,
+    "sheet": {
+      "x": 15.59375,
+      "y": 219.453125,
+      "width": 358.8125,
+      "height": 464.1875
+    },
+    "browserErrors": []
+  }
+}

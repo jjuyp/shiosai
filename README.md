@@ -2,7 +2,7 @@
 
 一座可互動的日本神社島嶼：四季、潮汐、水面漣漪、飄落的花瓣與自由游動的錦鯉。支援桌機及手機觸控。
 
-**[開啟線上作品](https://shiosai-shrine-cove.jjuyp.chatgpt.site)** · 線上版本目前為私人 Sites 網站，需要登入建立此作品的同一個 ChatGPT 帳號。
+**[開啟線上作品](https://jjuyp.github.io/shiosai/)** · GitHub Pages 公開網站，手機及桌機均可開啟，不需要登入。
 
 ![桌機預覽](assets/preview.png)
 
@@ -44,7 +44,7 @@ python -m http.server 8000
 
 ## 部署
 
-這是靜態單頁作品，可部署在支援 HTTPS 的靜態網站服務。現有線上網址由 Sites 部署，GitHub 儲存庫的提交不會自動更新該網站。本儲存庫尚未設定 GitHub Pages。
+這是靜態單頁作品，使用 GitHub Pages 發布 `main` 分支根目錄。推送到 `main` 後，GitHub 會自動重新部署。`.nojekyll` 讓檔案直接以靜態資源發布。
 
 ## 相依套件
 

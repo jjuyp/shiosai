@@ -1,8 +1,8 @@
 # shiosai° 手機版
 
-手機遊玩網址：https://shiosai-shrine-cove.jjuyp.chatgpt.site
+手機遊玩網址：https://jjuyp.github.io/shiosai/
 
-這是私人 Sites 網站，需要使用建立此作品的同一個 ChatGPT 帳號登入。用手機瀏覽器開啟即可，不必傳送 HTML 或啟動電腦上的伺服器。
+這是 GitHub Pages 公開網站，不需要登入。用手機瀏覽器開啟即可，不必傳送 HTML 或啟動電腦上的伺服器。
 
 - **單指滑過水面**：產生漣漪，鏡頭保持不動。
 - **點擊水面**：水花、推動浮落物，錦鯉會避開。
@@ -18,4 +18,4 @@
 
 尚未在實體 iPhone、Android 或 Safari 上測試；觸控模擬效能不能視為實體手機效能。
 
-部署版本：`4949b0b5f08bbc1a9aa6298ec837b1cb22f4a304`。
+網站從本儲存庫的 `main` 分支根目錄部署。

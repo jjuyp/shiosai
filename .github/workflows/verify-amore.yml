@@ -1,0 +1,32 @@
+name: Verify AMORE public website
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'amore-aegean-2027/**'
+      - '.github/workflows/verify-amore.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm published GitHub Pages serves the complete HTML
+        shell: bash
+        run: |
+          set -euo pipefail
+          url="https://jjuyp.github.io/shiosai/amore-aegean-2027/"
+          echo "Checking live public site: $url"
+          for attempt in $(seq 1 30); do
+            status=$(curl -L -sS --max-time 15 -o /tmp/amore-pages.html -w '%{http_code}' "$url" || true)
+            echo "Attempt $attempt: HTTP $status"
+            if [ "$status" = "200" ] && grep -qi 'AMORE & AEGEAN' /tmp/amore-pages.html && grep -qi 'dayGrid' /tmp/amore-pages.html; then
+              echo "LIVE_SITE_VERIFIED: $url"
+              echo "HTML bytes: $(wc -c </tmp/amore-pages.html)"
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "Public site not available after retries" >&2
+          exit 1
